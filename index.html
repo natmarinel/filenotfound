@@ -13,20 +13,20 @@
 </head>
 
 <body>
-    <div class="overlay" id="myNav">
+    <!--<div class="overlay" id="myNav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
             &times;
         </a>
         
 
-<!-- Overlay content -->
+<!-- Overlay content 
 <div class="overlay-content">
 <a href="index.html">Home</a>
 <a href="https://filenotfound.bigcartel.com/">Shop</a>
 <a href="releases.html">Releases</a>
 <a href="aboutus.html">About us</a>
 </div>
-</div>
+</div>-->
         <!--<span class="w-100"></span>
     </div>
     <span class="w-100"></span>-->
@@ -46,12 +46,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>-->
             </div>
-            <a class="navbar-brand text-center w-100" onclick="openNav()" href="#"><img src="./gif_starsweep.gif" height="150px" width="150px"></a>
+            <a class="navbar-brand text-center w-100"  href="./index.html"><img src="./gif_starsweep.gif" height="150px" width="150px"></a>
             <span class="w-100"></span>
         </div>
         <span class="w-100"></span>
     </nav>
-<script>
+<!--<script>
     function openNav() {
 document.getElementById("myNav").style.width = "100%";
 document.getElementById("box-contact").style.display = "none";
@@ -64,11 +64,11 @@ document.getElementById("myNav").style.width = "0%";
 document.getElementById("box-contact").style.display = "block";
 document.getElementById("musicPlayer").style.display = "block";
 }
-</script>
+</script>-->
 
     <div class="row">
         <div class="col-lg-12" id="box_link">
-            <a href="https://filenotfound.bigcartel.com/" class="mainLink">Shop</a><br>
+            <a href="https://filenotfound.bigcartel.com/" target="_blank" class="mainLink">Shop</a><br>
             <a href="./releases.html" class="mainLink">Releases</a><br>              
             <a href="./aboutus.html" class="mainLink">About us</a>
         </div>
@@ -79,19 +79,20 @@ document.getElementById("musicPlayer").style.display = "block";
   
       <div class="row" id="box-contact" >
         
-        <a class="link_contact" href="https://www.instagram.com/filenotfound.co/?hl=it">@filenotfoundco</a>
-        <a class="link_contact" href="https://www.youtube.com/channel/UClLqqFGIDnc4MCbln0fbBSg">youtube/filenotfoundco</a>    
-        <a class="link_contact" href="mailto:filenotfoundco@gmail.com">filenotfoundco@gmail.com</a>
+        <a class="link_contact"  target="_blank" href="https://www.instagram.com/filenotfound.co/?hl=it">@filenotfoundco</a>
+        <a class="link_contact"  target="_blank" href="https://www.youtube.com/channel/UClLqqFGIDnc4MCbln0fbBSg">youtube/filenotfoundco</a>    
+        <a class="link_contact"  target="_blank" href="mailto:filenotfoundco@gmail.com">filenotfoundco@gmail.com</a>
         
         
     </div>
+  <!--
     <div class="row text-center" id="box_icon" >
             
         <a href="https://www.instagram.com/filenotfound.co/?hl=it"><i class="icon fab fa-instagram"></i></a>
         <a href="mailto:filenotfoundco@gmail.com"><i class="icon far fa-envelope"></i></a>
         <a href="https://www.youtube.com/channel/UClLqqFGIDnc4MCbln0fbBSg"><i class="icon fab fa-youtube"></i></a>
     </div>
-  
+  -->
     <!--<iframe id="musicPlayer"src="https://open.spotify.com/embed/playlist/4riW0ohXWDybuM8pU98lCN&view=coverart"  height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -224,7 +225,7 @@ width:100%;
 }
 
     #box_icon{width:80%;margin-left:10%;text-align: center;}
-    .mainLink {display: none;}
+    .mainLink {margin-top:-10px;}
     .link_contact{display:none !important;}
     #box-contact{margin-left:0;}
     #box_icon {position: absolute;z-index:1;top:90%;margin-left:10%;width:80%;text-align: center;}
